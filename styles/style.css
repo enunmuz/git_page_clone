@@ -8,14 +8,15 @@ body {
 }
 header {
   display: flex;
-  background-color: #292f35;
+  background-color: #24292e;
   align-items: center;
   height: 9vh;
   width: 100%;
 }
+
 .logo {
   height: 6vh;
-  margin: 0px 10px 0 10px;
+  margin: 0px 10px;
 }
 .nav-links > ul > li {
   list-style: none;
@@ -32,13 +33,7 @@ header {
   position: relative;
 }
 .search > form input {
-  border-image-source: linear-gradient(
-    170deg,
-    rgb(33, 106, 255) 0%,
-    rgba(58, 33, 255, 1) 50%,
-    rgba(157, 0, 255, 1) 100%
-  );
-  border-image-slice: 1;
+  border: none;
   border-radius: 3px;
   background-color: #3f4448;
   width: 290px;
@@ -48,6 +43,73 @@ header {
   outline: none;
 }
 .search > form input::placeholder {
+  padding-top: 30px;
   padding-left: 8px;
   color: #8c8f92;
+}
+
+.right-icons {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.bell,
+.plus,
+.face {
+  font-size: 14px;
+  color: rgb(236, 235, 235);
+}
+.bell {
+  padding: 15px;
+}
+.face {
+  padding-left: 15px;
+  font-size: 17px;
+}
+.dd {
+  color: rgb(236, 235, 235);
+  font-size: 12px;
+}
+main {
+  background-color: #fafbfc;
+  min-height: 100px;
+}
+.heading {
+  padding-top: 25px;
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  margin: auto;
+}
+.heading .page-watch {
+  display: flex;
+  margin-left: auto;
+}
+.page-title .enz {
+  font-size: 19px;
+}
+.page-title .git-p {
+  font-size: 19px;
+  font-weight: 500;
+}
+.page-title a {
+  color: #0366d6;
+  text-decoration: none;
+  padding-left: 5px;
+}
+.page-title .bookmark {
+  color: rgb(161, 161, 161);
+  font-size: 17px;
+}
+button {
+  border: 1px solid grey;
+  padding: 4px 7px;
+  border-radius: 3px;
+  margin-left: 10px;
+  background-color: #1c1e1f;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+button i {
+  padding: 0px 5px;
 }
