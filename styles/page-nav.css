@@ -1,0 +1,10 @@
+.head-nav .page-nav{
+    padding-top: 30px ;
+}
+.page-nav ul{
+    display: flex;
+}
+.page-nav> ul> li{
+    padding-left: 20px;
+    list-style: none;
+}

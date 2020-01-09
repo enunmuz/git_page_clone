@@ -1,0 +1,86 @@
+main {
+  background-color: #1e1f20;
+  min-height: 100px;
+}
+.head-nav {
+  width: 65%;
+  margin: auto;
+}
+.heading {
+  padding-top: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+}
+.heading .page-watch {
+  display: flex;
+}
+.page-title .enz {
+  font-size: 19px;
+}
+.page-title .git-p {
+  font-size: 19px;
+  font-weight: 500;
+}
+.page-title a {
+  color: #40c6ff;
+  text-decoration: none;
+  padding-left: 5px;
+}
+.page-title .bookmark {
+  color: rgb(161, 161, 161);
+  font-size: 17px;
+}
+button {
+  border: 1px solid #2d3135;
+  padding: 5px 7px;
+  margin-left: 10px;
+  background-color: #1c1e1f;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  background-color: #242628;
+  font-size: 12px;
+  font-weight: 700;
+}
+.watch button:hover {
+  border-color: rgb(62, 67, 71);
+}
+.watch button {
+  padding-right: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.star button {
+  padding-right: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.fork button {
+  padding-right: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#zero {
+  margin-left: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: none;
+  padding: 0px 8px;
+  font-weight: 700;
+  background-color: #1c1e1f;
+}
+#zero:hover {
+  color: rgb(33, 118, 247);
+}
+
+button i {
+  padding: 0px 5px;
+}
+button .dd {
+  padding-right: 8px;
+}
+.str {
+  padding-right: 8px;
+}
