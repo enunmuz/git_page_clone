@@ -1,10 +1,31 @@
-.head-nav .page-nav{
-    padding-top: 30px ;
+.head-nav .page-nav {
+  padding-top: 24px;
 }
-.page-nav ul{
-    display: flex;
+.page-nav ul {
+  display: flex;
 }
-.page-nav> ul> li{
-    padding-left: 20px;
-    list-style: none;
+.page-nav > ul > li {
+  margin: 0 5px 0 0;
+  list-style: none;
+  color: white;
+  font-size: 14px;
+  padding: 15px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+#selected {
+  border: 1px solid #2d3135;
+  border-bottom: 1px solid #1c1e1f;
+  border-top: 2px solid #e16209;
+  padding: 8px 14px;
+  padding-top: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+li i {
+  padding-right: 5px;
+  font-size: 14px;
+  color: rgb(170, 170, 168);
 }

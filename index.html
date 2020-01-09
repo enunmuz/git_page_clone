@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/page-nav.css" />
+    <link rel="stylesheet" href="./styles/left-content.css" />
+    <link rel="stylesheet" href="./styles/right-content.css" />
   </head>
+
   <body>
     <header>
       <div class="header-content">
@@ -42,53 +45,207 @@
       </div>
     </header>
     <main>
-      <div class="head-nav">
-        <div class="heading">
-          <div class="page-title">
-            <i class="far fa-address-book bookmark"></i
-            ><a href="#" class="enz">enunmuz</a> /
-            <a href="#" class="git-p">git_page_clone</a>
+      <div class="page-nav-wrap">
+        <div class="head-nav">
+          <div class="heading">
+            <div class="page-title">
+              <i class="far fa-address-book bookmark"></i
+              ><a href="#" class="enz">enunmuz </a> /
+              <a href="#" class="git-p">git_page_clone</a>
+            </div>
+            <div class="page-watch">
+              <div class="watch">
+                <button>
+                  <i class="fas fa-eye"></i>Watch
+                  <i class="fas fa-caret-down dd"></i>
+                </button>
+              </div>
+              <button id="zero">
+                0
+              </button>
+              <div class="star">
+                <button>
+                  <i class="fas fa-star"></i><span class="str">Star</span>
+                </button>
+              </div>
+              <button id="zero">
+                0
+              </button>
+              <div class="fork">
+                <button>
+                  <i class="fas fa-code-branch"></i
+                  ><span class="str">Fork</span>
+                </button>
+              </div>
+              <button id="zero">
+                0
+              </button>
+            </div>
           </div>
-          <div class="page-watch">
-            <div class="watch">
-              <button>
-                <i class="fas fa-eye"></i>Watch
-                <i class="fas fa-caret-down dd"></i>
-              </button>
-            </div>
-            <button id="zero">
-              0
-            </button>
-            <div class="star">
-              <button>
-                <i class="fas fa-star"></i><span class="str">Star</span>
-              </button>
-            </div>
-            <button id="zero">
-              0
-            </button>
-            <div class="fork">
-              <button>
-                <i class="fas fa-code-branch"></i><span class="str">Fork</span>
-              </button>
-            </div>
-            <button id="zero">
-              0
-            </button>
+          <div class="page-nav">
+            <ul>
+              <li>
+                <a href="#"><i class="fas fa-code"></i>Code</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-exclamation-circle"></i>Issues</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-project-diagram"></i>Pull requests</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-play-circle"></i>Actions</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chart-line"></i>Projects</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-book"></i>Wiki</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-shield-alt"></i>Security</a>
+              </li>
+              <li id="selected">
+                <i class="far fa-chart-bar"></i><a href="#">Insights</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-cog"></i>Settings</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="page-nav">
-          <ul>
-            <li>Code</li>
-            <li>Issues</li>
-            <li>Pull requests</li>
-            <li>Actions</li>
-            <li>Projects</li>
-            <li>Wiki</li>
-            <li>Security</li>
-            <li>Insights</li>
-            <li>Settings</li>
-          </ul>
+      </div>
+      <div class="page-content-wrap">
+        <div class="both-content-wrap">
+          <div class="left-content-section">
+            <div class="side-list">
+              <ul>
+                <li id="selected-side-list">Pulse</li>
+                <li>Contributors</li>
+                <li>Community</li>
+                <li>Traffic</li>
+                <li>Commits</li>
+                <li>Code frequency</li>
+                <li>Dependency graph</li>
+                <li>Network</li>
+                <li id="fork-side-list">Forks</li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-content-section">
+            <div class="date-section">
+              <div class="date-heading">
+                <p>January 2, 2020 - January 9, 2020</p>
+              </div>
+              <div class="period-select-button period">
+                <button>
+                  <span class="period-color">Period:</span>1 week
+                  <i class="fas fa-caret-down dd"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="overview-section">
+              <p class="overview">Overview</p>
+              <div class="line-overview">
+                <div class="line-req">
+                  <div class="line"></div>
+                  <div class="active">1 Active Pull Request</div>
+                </div>
+                <div class="issues">0 Active Issues</div>
+              </div>
+              <div class="four-segments">
+                <ul>
+                  <li class="clickable">
+                    <i class="fas fa-project-diagram purp"></i>1
+                    <span>Merged Pull Request</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-code-branch gree"></i>0
+                    <span>Proposed Pull Requests</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle red"></i>0
+                    <span>Closed Issues</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-exclamation-circle gree"></i>0
+                    <span>New Issues</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-graph">
+              <div class="text-section">
+                <p>
+                  Excluding merges, 1 author has pushed 12 commits to master and
+                  12 commits to all branches. On master, 0 files have changed
+                  and there have been 0 additions and 0 deletions.
+                </p>
+              </div>
+              <div class="mini-graph-section">
+                <div class="mgs">
+                  <div class="no">
+                    <ul>
+                      <li>15</li>
+                      <li>10</li>
+                      <li>5</li>
+                      <li>0</li>
+                    </ul>
+                  </div>
+                  <div class="graph-lines">
+                    <ul>
+                      <li class="one"></li>
+                      <li class="two"></li>
+                      <li class="three"></li>
+                      <li class="four"></li>
+                    </ul>
+                    <div class="bar"></div>
+                    <div class="user">
+                      <i class="far fa-smile-beam admin"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-section">
+              <p class="no-span">
+                <i class="fas fa-project-diagram pr"></i>1
+                <span>Pull request merged by 1 person</span>
+              </p>
+            </div>
+            <div class="merged-section">
+              <button class="purp-btn">Merged</button>
+              <p>#1 <a href="#"> Create CODE_OF_CONDUCT.md</a> 6 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="left-foot">
+            <ul>
+              <li>&copy; 2020 GitHub, Inc.</li>
+              <li>Terms</li>
+              <li>Privacy</li>
+              <li>Security</li>
+              <li>Status</li>
+              <li>Help</li>
+            </ul>
+          </div>
+          <div class="center-foot">
+            <img src="./imgs/logo.svg" alt="" srcset="" />
+          </div>
+          <div class="right-foot">
+            <ul>
+              <li>Contact GitHub</li>
+              <li>Pricing</li>
+              <li>API</li>
+              <li>Training</li>
+              <li>Blog</li>
+              <li>About</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
