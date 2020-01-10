@@ -8,6 +8,8 @@ This webpage was cloned for learning pupose only.
 
 *Vanila CSS* (CSS3) was used instead of any framework to demonstrate same or more amount of flexibility that is provided by *Vanila css*.
 
+This webpage was designed in dark theme (*because i love black*)
+
 > *This clone webpage is not functional and is for demonstration and learning purpose only*.
 
 **You can view the Demo of this webpage directly from [Here](https://enunmuz.github.io/git_page_clone/index.html)**
