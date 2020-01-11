@@ -4,7 +4,7 @@ This webpage was cloned for learning pupose only.
 
 *Vanila CSS* was used in this project without any css framework like *Bootstrap*.
 
-*Flexbox* and *Grid* System provided the structure to the page which gave independence for customization.
+*Flexbox* System provided the structure to the page which gave independence for customization.
 
 *Vanila CSS* (CSS3) was used instead of any framework to demonstrate same or more amount of flexibility that is provided by *Vanila css*.
 
